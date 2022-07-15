@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display flex</title>
+  <style>
+    .contenedorpadre {
+      display: flex;
+      flex-direction: row;
+      /* justify-content: space-around; */
+      /* flex-wrap: wrap; */
+      height: 50vh;
+      align-items: baseline;
+    }
+
+    #contenedor1 {
+      background-color: blue;
+    }
+
+    #contenedor2 {
+      background-color: red;
+    }
+
+    #contenedor3 {
+      background-color: green;
+    }
+
+    #contenedor4 {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedorpadre">
+    <div id="contenedor1">Contenido 1</div>
+    <div id="contenedor2">Contenido 2</div>
+    <div id="contenedor3">Contenido 3</div>
+    <div id="contenedor4">Contenido 4</div>
+  </div>
+</body>
+</html>

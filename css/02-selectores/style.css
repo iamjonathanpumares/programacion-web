@@ -1,0 +1,20 @@
+/* Selector universal: Aplica estilos a todos los elementos de la pagina */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector de etiqueta: Aplica estilos a todos los elementos <p> */
+p {
+    color: blue;
+}
+
+/* Selector de clase: Aplica estilos a aquellos elementos con la clase .rojo utilizando el atributo class */
+.rojo {
+    color: red;
+}
+
+/* Selector de id: Aplica estilos a un solo elemento utilizando el atributo id */
+#texto {
+    font-size: 35px;
+}

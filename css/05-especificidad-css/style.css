@@ -1,0 +1,31 @@
+* {
+    font-size: 25px;
+}
+
+div p {
+    color: red;
+}
+
+div h1 span {
+    text-transform: lowercase;
+}
+
+p {
+    color: blue;
+    font-size: 15px;
+}
+
+span.minusculas {
+    text-transform: lowercase;
+}
+
+.mayusculas {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+

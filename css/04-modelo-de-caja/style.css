@@ -1,0 +1,16 @@
+main {
+    width: 500px;
+}
+
+/* Cada elemento HTML es una caja
+    y podemos aplicarle un ancho, un alto, margenes, padding, bordes */
+p {
+    /* margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    margin-left: 8px; */
+    margin: 10px 8px 5px 3px;
+    padding: 20px;
+    border: 1px dashed #000;
+    text-align: justify;
+}

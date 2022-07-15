@@ -1,0 +1,17 @@
+/* Pseudo clases: Aplica estilos de un estado especial a un elemento */
+header:hover {
+    background-color: #F89B4D;
+}
+
+li:hover {
+    color: white;
+}
+
+/* Pseudoelementos: Aplica estilos a una parte especifica de un elemento */
+p::first-line {
+    color: yellow;
+}
+
+p::first-letter {
+    font-size: 40px;
+}

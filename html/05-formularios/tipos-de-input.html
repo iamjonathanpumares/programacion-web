@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de input</title>
+</head>
+<body>
+  <main>
+    <h1>Tipos de input</h1>
+
+    <form>
+      <label for="id_email">
+        <span>Email</span>
+        <input
+          type="email"
+          placeholder="correo@correo.com"
+          name="email"
+          id="id_email"
+          value="correo@correo.com" 
+          required
+        >
+      </label>
+
+      <label for="id_password">
+        <span>Password</span>
+        <input type="password" id="id_password" name="password" required>
+      </label>
+
+      <label for="tipo_usuario">
+        <span>Tipo de usuario</span>
+        <select name="tipo_usuario" id="tipo_usuario">
+          <option value="1">Administrador</option>
+          <option value="2">Supervisor</option>
+        </select>
+      </label>
+
+      <label for="fecha_nacimiento">
+        <span>Fecha de nacimiento</span>
+        <input type="date" name="fecha_nacimiento">
+      </label>
+
+      <label for="codigo_postal">
+        <span>Codigo postal</span>
+        <input type="number" id="codigo_postal">
+      </label>
+
+      <label for="telefono">
+        <span>Telefono</span>
+        <input type="tel" id="telefono">
+      </label>
+
+      <label for="foto_perfil">
+        <span>Foto de perfil</span>
+        <input type="file">
+      </label>
+
+      <!-- <input list="tipo_usuario">
+      <datalist id="tipo_usuario" name="tipo_usuario">
+        <option value="Administrador"></option>
+        <option value="Supervisor"></option>
+      </datalist> -->
+
+      <input type="submit">
+    </form>
+  </main>
+</body>
+</html>
